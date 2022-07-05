@@ -13,17 +13,17 @@
     
     let number = +prompt('nhập số cần tính: ')
     let total;
-    
+    let n1=1, n2=1;
+    console.log(n1)
+    console.log(n2)
     for(let i=1; i<number; i ++){
-        if(i ==1){
-            total =1;
-            console.log(total)
-        }
-        if( i >=2 ){
-
-            total = (i-1) + ( i-2);
-            console.log(total)
-        }
+        total = n1 + n2;
+        n1 = n2;
+        n2 = total;
+        console.log(total)
     }
+
+
+   
 </script>
 </html>

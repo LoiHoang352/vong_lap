@@ -14,6 +14,9 @@
     let input;
     do{
         input = prompt('nhập mật khẩu?')
+        if(input != password){
+            alert('mật khẩu sai, vui lòng thử lại')
+        }
     }while(input !=password);
     alert('mật khẩu đúng')
 </script>
