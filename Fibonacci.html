@@ -14,17 +14,15 @@
     let number = +prompt('nhập số cần tính: ')
     let total;
     let n1=0, n2=1;
+    let i = 1;
     // console.log(n1)
     // console.log(n2)
-    for(let i=1; i<number; i ++){
-        
+    while( i<= number ){
         total = n1 + n2;
         n1 = n2;
+        document.write(n2 + '<br>');
         n2 = total;
-        console.log(total)
+        i ++
     }
-
-
-   
 </script>
 </html>
